@@ -33,6 +33,11 @@ h4 {
 
 .text-italics { font-style: italic; }
 
+.red-tnr {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+}
+
 /** Bootstrap overwrite **/
 .container {
     width: 100%;
@@ -371,4 +376,15 @@ Bootrstrap overide
 
 .navbar-brand {
     padding: 10px 15px;
+}
+
+.red-cross {
+    text-align: center;
+    border-bottom: solid 4px red;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+.red-cross p {
+    font-size: 20px;
 }

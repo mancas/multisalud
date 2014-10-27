@@ -40,6 +40,7 @@
 
     <div id="wrap" class="clearfix">
         <?php echo $this->element('carrousel'); ?>
+        <?php echo $this->element('cruz-roja'); ?>
         <?php echo $this->fetch('content'); ?>
     </div>
 
