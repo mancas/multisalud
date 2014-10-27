@@ -1,0 +1,374 @@
+body {
+    padding-top: 85px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+h4 {
+    font-size: 30px !important;
+}
+
+/** Helper classes **/
+.margin-auto { margin: auto !important; }
+
+.m0 { margin: 0px 0px 10px 0px !important; }
+
+.pb40 { padding-bottom: 40px !important; }
+
+.mb80 { margin-bottom: 80px !important; }
+
+.mb40 { margin-bottom: 40px !important; }
+
+.mb20 { margin-bottom: 20px !important; }
+
+.mt20 { margin-top: 20px !important; }
+
+.nmb {
+    margin-bottom: 0px !important;
+}
+
+.no-indent {
+    text-indent: 0px !important;
+}
+
+.text-italics { font-style: italic; }
+
+/** Bootstrap overwrite **/
+.container {
+    width: 100%;
+    max-width: 970px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #3878b2;
+    color: #FFF;
+}
+
+.navbar-right .dropdown-menu {
+    right: auto!important;
+    left: 0px !important;
+}
+
+.navbar-fixed-top {
+    background-color: #FFFFFF;
+    border-bottom: solid 10px #3878b2;
+    color: #FFF;
+    margin-bottom: 0px;
+    min-height: 54px;
+}
+
+.navbar-fixed-top .navbar-nav {
+    margin-top: 26px;
+}
+
+.navbar-fixed-top .navbar-nav li {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.navbar-fixed-top .navbar-nav li a {
+    border-radius: 2px;
+    color: #3878b2;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 5px 10px !important;
+}
+
+.navbar-fixed-top .navbar-nav li a:hover {
+    color: #FFFFFF;
+    background-color: #3878b2;
+}
+
+.navbar-default .navbar-toggle {
+    border: solid 1px #3878b2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #3878b2;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #3878b2;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #FFF;
+}
+
+.brand {
+    max-width: 150px;
+}
+
+/** Sections **/
+#carousel {
+    max-height: 650px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    border-bottom: 8px solid #FFC000;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    font-size: 30px;
+}
+
+.glyphicon-chevron-left {
+    margin-left: -60px;
+}
+
+.glyphicon-chevron-right {
+    margin-right: -60px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 150px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 55px;
+    left: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caption p {
+    color: #3878b2;
+}
+
+.light {
+    font-weight: 300;
+}
+
+#wrap {
+    height: auto !important;
+    margin: 0px;
+    min-height: 100%;
+    background-color: #FFFFFF;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/** Sections **/
+
+.marketing {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marketing i {
+    margin-right: 8px;
+}
+
+.marketing h2 {
+    color: #3878b2;
+}
+
+.marketing h3.light {
+    color: #5B6064;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.marketing p.address {
+    font-size: 18px;
+}
+
+.marketing p.phones {
+    font-size: 25px;
+}
+
+.marketing p.phones i {
+    color: #3878b2;
+}
+
+.marketing p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #333333;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+    border-color: #3878b2 !important;
+}
+
+.featurette-heading {
+    font-size: 50px;
+    color: #3878b2;
+}
+
+h3.featurette-heading {
+    font-size: 40px;
+}
+
+h5.featurette-heading {
+    font-size: 28px;
+}
+
+.featurette-image {
+    width: 370px;
+    border: solid 2px #F3F3F3;
+}
+
+.featurette-image.pull-right {
+    margin-left: 15px;
+}
+
+.featurette-image.pull-left {
+    margin-right: 15px;
+}
+
+p.featurette {
+    line-height: 25px;
+    font-weight: 300;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+p.featurette b {
+    color: #3878b2;
+}
+
+span.circle {
+    display: block;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #3878b2;
+}
+
+span.circle:before {
+    content: " ";
+    width: 8px;
+    height: 8px;
+    background-color: #3878b2;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+ul {
+    padding-left: 120px;
+}
+
+ul li {
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.find-us {
+    background-color: #F8F8F8;
+    min-height: 50px;
+    border-bottom: solid 4px #FFC000;
+}
+
+.find-us h2 {
+    margin: 0px;
+    color: #3878b2;
+    line-height: 50px;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-bottom: solid 2px #3878b2;
+    margin-bottom: 40px;
+}
+
+section .row {
+    margin-bottom: 80px;
+}
+
+.loader {
+    margin-left: 15px;
+    display: none;
+}
+
+.form-notifications {
+    display: none;
+}
+
+footer {
+    background-color: #004B71;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.contact-list i {
+    margin-right: 5px;
+}
+
+.contact-list a {
+    color: #FFFFFF !important;
+}
+
+footer .social {
+    color: #FFFFFF;
+}
+
+.social i {
+    font-size: 20px;
+}
+
+blockquote footer {
+    display: block;
+    line-height: 1.42857143;
+    color: #999;
+    padding: 0px !important;
+    background-color: #FFF !important;
+}
+
+blockquote footer:before, blockquote small:before, blockquote .small:before {
+    content: '\2014 \00A0';
+}
+
+textarea {
+    resize: none;
+}
+
+.read-more {
+    background-color: #3878b2;
+}
+
+.read-more:hover {
+    background-color: #428BCA;
+}
+
+@media(max-width:768px) {
+    .navbar-collapse {
+        float: none !important;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+        border-color: #534741 !important;
+    }
+
+    .dark-block {
+        width: 100%;
+        padding: 40px 0 40px 0;
+    }
+}
+
+/**
+Bootrstrap overide
+*/
+.dropdown-menu {
+    left: 0 !important;
+}
+
+.dropdown-menu .active a {
+    color: #FFF !important;
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+}
